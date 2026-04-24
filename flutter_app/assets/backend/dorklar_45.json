@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "kategori": "Hedef Bazli",
+    "sorgu": "site:example.com inurl:login OR intitle:\"login\"",
+    "aciklama": "Hedefe ait giris sayfalarini listeler.",
+    "etiketler": ["login", "giris", "auth", "panel", "hedef"]
+  },
+  {
+    "id": 2,
+    "kategori": "Hedef Bazli",
+    "sorgu": "site:example.com filetype:pdf",
+    "aciklama": "Hedefe ait kamuya acik PDF belgelerini listeler.",
+    "etiketler": ["pdf", "belge", "dosya", "hedef", "döküman"]
+  },
+  {
+    "id": 3,
+    "kategori": "Hedef Bazli",
+    "sorgu": "site:example.com filetype:xls OR filetype:xlsx",
+    "aciklama": "Hedefe ait kamuya acik Excel dosyalarini listeler.",
+    "etiketler": ["excel", "xls", "spreadsheet", "dosya", "hedef"]
+  },
+  {
+    "id": 4,
+    "kategori": "Hedef Bazli",
+    "sorgu": "site:example.com filetype:conf OR filetype:config",
+    "aciklama": "Hedefe ait acikta kalmis konfigurasyon dosyalarini listeler.",
+    "etiketler": ["config", "conf", "yapilandirma", "hedef", "dosya"]
+  },
+  {
+    "id": 5,
+    "kategori": "Hedef Bazli",
+    "sorgu": "site:example.com intitle:\"index of\"",
+    "aciklama": "Hedefe ait acik dizin listelerini bulur.",
+    "etiketler": ["dizin", "index", "directory", "hedef", "acik"]
+  },
+  {
+    "id": 6,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "filetype:pdf",
+    "aciklama": "Internetteki tum PDF belgelerini bulur.",
+    "etiketler": ["pdf", "belge", "dosya", "global"]
+  },
+  {
+    "id": 7,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "filetype:xls OR filetype:xlsx",
+    "aciklama": "Internetteki Excel dosyalarini bulur.",
+    "etiketler": ["excel", "xls", "spreadsheet", "dosya", "global"]
+  },
+  {
+    "id": 8,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "filetype:doc OR filetype:docx",
+    "aciklama": "Internetteki Word belgelerini bulur.",
+    "etiketler": ["word", "doc", "belge", "dosya", "global"]
+  },
+  {
+    "id": 9,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "filetype:conf OR filetype:config",
+    "aciklama": "Sunuculara ait konfigurasyon dosyalarini bulur.",
+    "etiketler": ["config", "conf", "yapilandirma", "sunucu", "dosya"]
+  },
+  {
+    "id": 10,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "#mysql dump filetype:sql",
+    "aciklama": "Disariya sizinis MySQL veritabani dumplarini bulur.",
+    "etiketler": ["mysql", "sql", "dump", "veritabani", "sizinti"]
+  },
+  {
+    "id": 11,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "# phpMyAdmin MySQL-Dump filetype:txt",
+    "aciklama": "phpMyAdmin ile alinmis ve disariya sizinis veritabani yedeklerini bulur.",
+    "etiketler": ["phpmyadmin", "mysql", "dump", "veritabani", "sizinti"]
+  },
+  {
+    "id": 12,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "Web Application Assessment Report ext:pdf",
+    "aciklama": "Internete sizinis web uygulama guvenlik denetim raporlarini bulur.",
+    "etiketler": ["rapor", "guvenlik", "pentest", "assessment", "pdf"]
+  },
+  {
+    "id": 13,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "IBM Security AppScan Report ext:pdf",
+    "aciklama": "IBM AppScan ile uretilmis ve disariya sizinis guvenlik tarama raporlarini bulur.",
+    "etiketler": ["appscan", "ibm", "rapor", "guvenlik", "tarama"]
+  },
+  {
+    "id": 14,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "Network Host Assessment Report Internet Scanner",
+    "aciklama": "Ag host guvenlik tarama raporlarini bulur.",
+    "etiketler": ["network", "ag", "rapor", "tarama", "host"]
+  },
+  {
+    "id": 15,
+    "kategori": "Dosya Tespiti",
+    "sorgu": "The following report contains confidential information vulnerability -search",
+    "aciklama": "Gizli ibaresi olan guvenlik acigi raporlarini bulur.",
+    "etiketler": ["gizli", "confidential", "rapor", "vulnerability", "acik"]
+  },
+  {
+    "id": 16,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "AutoCreate=TRUE password=*",
+    "aciklama": "Sifre iceren acikta kalmis konfigurasyon dosyalarini bulur.",
+    "etiketler": ["sifre", "password", "credential", "config", "sizinti"]
+  },
+  {
+    "id": 17,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "-----BEGIN RSA PRIVATE KEY----- ext:key",
+    "aciklama": "RSA private key dosyalarini bulur.",
+    "etiketler": ["rsa", "private key", "ssh", "sertifika", "kriptografi"]
+  },
+  {
+    "id": 18,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "-----BEGIN EC PRIVATE KEY----- | -----BEGIN EC PARAMETERS----- ext:pem | ext:key | ext:txt",
+    "aciklama": "EC private key dosyalarini bulur.",
+    "etiketler": ["ec", "private key", "pem", "sertifika", "kriptografi"]
+  },
+  {
+    "id": 19,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "-----BEGIN PGP PRIVATE KEY BLOCK----- ext:pem | ext:key | ext:txt -git",
+    "aciklama": "PGP private key dosyalarini bulur.",
+    "etiketler": ["pgp", "private key", "gpg", "sifreleme", "kriptografi"]
+  },
+  {
+    "id": 20,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "/** MySQL database password */ ext:txt | ext:cfg | ext:env | ext:ini",
+    "aciklama": "Kod yorumunda MySQL sifresi iceren dosyalari bulur.",
+    "etiketler": ["mysql", "sifre", "password", "env", "credential"]
+  },
+  {
+    "id": 21,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "EMAIL_HOST_PASSWORD ext:yml | ext:env | ext:txt | ext:log",
+    "aciklama": "E-posta kimlik bilgisi iceren konfigurasyon dosyalarini bulur.",
+    "etiketler": ["email", "smtp", "sifre", "env", "credential"]
+  },
+  {
+    "id": 22,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "FileZilla inurl:recentservers.xml -git",
+    "aciklama": "FileZilla FTP istemcisinin sunucu ve kimlik bilgilerini iceren dosyasini bulur.",
+    "etiketler": ["filezilla", "ftp", "credential", "sunucu", "sizinti"]
+  },
+  {
+    "id": 23,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "# -FrontPage- ext:pwd",
+    "aciklama": "FrontPage uzantili sifre dosyalarini bulur.",
+    "etiketler": ["frontpage", "pwd", "sifre", "dosya", "credential"]
+  },
+  {
+    "id": 24,
+    "kategori": "Kimlik Bilgisi",
+    "sorgu": "+htpasswd +WS_FTP.LOG filetype:log",
+    "aciklama": "htpasswd ve FTP log dosyalarini birlikte icerenlerini bulur.",
+    "etiketler": ["htpasswd", "ftp", "log", "sifre", "credential"]
+  },
+  {
+    "id": 25,
+    "kategori": "Giris Panelleri",
+    "sorgu": "inurl:admin OR intitle:\"admin login\"",
+    "aciklama": "Admin giris sayfalarini bulur.",
+    "etiketler": ["admin", "login", "panel", "giris", "yonetim"]
+  },
+  {
+    "id": 26,
+    "kategori": "Giris Panelleri",
+    "sorgu": "inurl:vpn OR intitle:\"VPN\"",
+    "aciklama": "Disariya acik VPN portal giris sayfalarini bulur.",
+    "etiketler": ["vpn", "giris", "portal", "uzak erisim", "network"]
+  },
+  {
+    "id": 27,
+    "kategori": "Giris Panelleri",
+    "sorgu": "inurl:webmail OR intitle:\"webmail\"",
+    "aciklama": "Kurumsal webmail arayuzlerini bulur.",
+    "etiketler": ["webmail", "email", "posta", "giris", "owa"]
+  },
+  {
+    "id": 28,
+    "kategori": "Giris Panelleri",
+    "sorgu": "intitle:\"dashboard\" inurl:dashboard",
+    "aciklama": "Disariya acik yonetim panellerini bulur.",
+    "etiketler": ["dashboard", "panel", "yonetim", "giris", "admin"]
+  },
+  {
+    "id": 29,
+    "kategori": "Giris Panelleri",
+    "sorgu": "intitle:\"control panel\" OR inurl:cpanel",
+    "aciklama": "Kontrol paneli arayuzlerini tespit eder.",
+    "etiketler": ["cpanel", "kontrol", "panel", "hosting", "yonetim"]
+  },
+  {
+    "id": 30,
+    "kategori": "Giris Panelleri",
+    "sorgu": "Citrix Receiver inurl:index.html Gateway",
+    "aciklama": "Citrix uzak erisim gateway sayfalarini bulur.",
+    "etiketler": ["citrix", "gateway", "uzak erisim", "rdp", "giris"]
+  },
+  {
+    "id": 31,
+    "kategori": "Giris Panelleri",
+    "sorgu": "Copyright Huawei Technologies co. Ltd Account Password -site:huawei.com",
+    "aciklama": "Huawei cihazlarina ait giris sayfalarini bulur.",
+    "etiketler": ["huawei", "router", "cihaz", "giris", "network"]
+  },
+  {
+    "id": 32,
+    "kategori": "Acik Dizin",
+    "sorgu": "intitle:\"index of\" \"parent directory\"",
+    "aciklama": "Dizin listeleme acik birakilan sunuculari bulur.",
+    "etiketler": ["dizin", "index", "directory listing", "acik", "sunucu"]
+  },
+  {
+    "id": 33,
+    "kategori": "Acik Dizin",
+    "sorgu": "(intext:index of /.git) (parent directory)",
+    "aciklama": "Git deposu dizini acikta kalmis sunuculari tespit eder.",
+    "etiketler": ["git", "kaynak kod", "repo", "dizin", "sizinti"]
+  },
+  {
+    "id": 34,
+    "kategori": "Acik Dizin",
+    "sorgu": "-- Dumped from database version + -- Dumped by pg_dump version ext:txt | ext:sql | ext:env | ext:log",
+    "aciklama": "PostgreSQL veritabani dumplarini bulur.",
+    "etiketler": ["postgresql", "dump", "veritabani", "sizinti", "sql"]
+  },
+  {
+    "id": 35,
+    "kategori": "Acik Dizin",
+    "sorgu": "-- Dumping data for table `users` | `people` | `member` ext:sql | ext:txt | ext:log | ext:env",
+    "aciklama": "Kullanici tablosu iceren veritabani dumplarini bulur.",
+    "etiketler": ["kullanici", "users", "dump", "veritabani", "sizinti"]
+  },
+  {
+    "id": 36,
+    "kategori": "Acik Dizin",
+    "sorgu": "Welcome to Intranet",
+    "aciklama": "Disariya acik intranet sayfalarini bulur.",
+    "etiketler": ["intranet", "ic ag", "kurumsal", "acik", "network"]
+  },
+  {
+    "id": 37,
+    "kategori": "Hata Mesajlari",
+    "sorgu": "Fatal error: Call to undefined function -reply -the -next",
+    "aciklama": "PHP hata mesaji sizdiran sayfalari tespit eder.",
+    "etiketler": ["php", "hata", "error", "fatal", "sizinti"]
+  },
+  {
+    "id": 38,
+    "kategori": "Hata Mesajlari",
+    "sorgu": "Can't connect to local intitle:warning",
+    "aciklama": "MySQL baglanti hatasi sizdiran sayfalari tespit eder.",
+    "etiketler": ["mysql", "baglanti", "hata", "error", "warning"]
+  },
+  {
+    "id": 39,
+    "kategori": "Hata Mesajlari",
+    "sorgu": "An illegal character has been found in the statement -previous message",
+    "aciklama": "SQL injection'a karsi hassas olabilecek sayfalari tespit eder.",
+    "etiketler": ["sql", "injection", "hata", "sqli", "vulnerability"]
+  },
+  {
+    "id": 40,
+    "kategori": "Hata Mesajlari",
+    "sorgu": "ORA-00921: unexpected end of SQL command",
+    "aciklama": "Oracle SQL hata mesaji sizdiran sayfalari tespit eder.",
+    "etiketler": ["oracle", "sql", "hata", "error", "ora"]
+  },
+  {
+    "id": 41,
+    "kategori": "Hata Mesajlari",
+    "sorgu": "Incorrect syntax near",
+    "aciklama": "MSSQL hata mesaji sizdiran sayfalari tespit eder.",
+    "etiketler": ["mssql", "sql", "hata", "syntax", "error"]
+  },
+  {
+    "id": 42,
+    "kategori": "Kamera ve Cihaz",
+    "sorgu": "intitle:\"webcamXP 5\"",
+    "aciklama": "WebcamXP yazilimi kullanan acik IP kameralari bulur.",
+    "etiketler": ["kamera", "webcam", "ip camera", "canli", "cihaz"]
+  },
+  {
+    "id": 43,
+    "kategori": "Kamera ve Cihaz",
+    "sorgu": "inurl:\"/view/index.shtml\"",
+    "aciklama": "Internete acik IP kameralari tespit eder.",
+    "etiketler": ["kamera", "ip camera", "live", "canli", "cihaz"]
+  },
+  {
+    "id": 44,
+    "kategori": "Kamera ve Cihaz",
+    "sorgu": "(intext:MOBOTIX M1 | intext:MOBOTIX M10) intext:Open Menu Shift-Reload",
+    "aciklama": "MOBOTIX marka ag kameralarini bulur.",
+    "etiketler": ["mobotix", "kamera", "ip camera", "cihaz", "canli"]
+  },
+  {
+    "id": 45,
+    "kategori": "Kamera ve Cihaz",
+    "sorgu": "Select a database to view intitle:filemaker pro",
+    "aciklama": "Internete acik FileMaker Pro veritabani arayuzlerini bulur.",
+    "etiketler": ["filemaker", "veritabani", "acik", "panel", "cihaz"]
+  }
+]
