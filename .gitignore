@@ -26,3 +26,6 @@ Desktop.ini
 
 # dist icindeki ZIP (exe kalsin, zip gitmesin)
 dist/*.zip
+
+# Orijinal PNG ekran goruntuleri
+image*.png

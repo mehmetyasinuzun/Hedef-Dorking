@@ -4,6 +4,8 @@ Google Dork sorgusu ureten Windows masaustu uygulamasi. OSINT (acik kaynak istih
 
 Kullanici dork listesinden secer, hedef domainini yazar, gerekirse gelismis filtreler ekler. Uygulama bu bilgileri birlestirip tarayicida Google aramasini acar.
 
+![Ana Ekran](screenshots/ana_ekran.jpg)
+
 ## Nasil Calisir
 
 ```
@@ -16,6 +18,16 @@ Kullanici hedef + dork secer
 
 Flutter tarafinda dork secimi, hedef domain isleme ve filtre birlestirme yapilir.
 Go tarafinda sadece gelen sorguyu Google'da acma ve loglama vardir.
+
+### Ornek Kullanim
+
+Hedef domain ve gelismis filtreler girildikten sonra "GOOGLE'DA ARA" butonuyla arama yapilir:
+
+![Filtre ve Hedef Kullanimi](screenshots/filtre_ve_hedef.jpg)
+
+Tarayicida acilan Google arama sonucu:
+
+![Google Sonuc Sayfasi](screenshots/google_sonuc.jpg)
 
 ## Dizin Yapisi
 
