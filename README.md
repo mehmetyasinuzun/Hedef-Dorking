@@ -163,7 +163,7 @@ Derlenen uygulamayi calistirin:
 start build\windows\x64\runner\Release\hedef_dorking.exe
 ```
 
-## Portable EXE Uretme
+## Portable EXE Uretme veya kullanma
 
 Derleme tamamlandiktan sonra, uygulamayi tek bir exe dosyasina paketlemek icin:
 
@@ -173,7 +173,7 @@ portable.bat
 
 Cikti: `dist/hedef_dorking_portable.exe`
 
-Bu exe calistiginda dosyalari gecici klasore acip uygulamayi baslatir.
+Bu exe calistiginda dosyalari gecici klasore acip uygulamayi baslatir. Şuan yüklenen github reposunda portable sürüm mevcut `dist/hedef_dorking_portable.exe` dizininden direk indirip kullanabilirsiniz.
 Baska bilgisayarda Go veya Flutter kurulu olmasa bile calisir.
 
 ## Loglama
@@ -189,15 +189,6 @@ Ornek log:
 ```
 2026-04-24 18:00:00 [BASLATMA] Sunucu calisiyor -> http://localhost:8080
 2026-04-24 18:00:10 [ARA] sorgu="site:example.com intitle:admin"
-```
-
-## Hizli Test
-
-Backend ayaktayken asagidaki komutla test edilebilir:
-
-PowerShell:
-```powershell
-Invoke-RestMethod -Method Post -Uri "http://localhost:8080/api/ara" -ContentType "application/json" -Body '{"sorgu":"site:example.com intitle:admin"}'
 ```
 
 curl:
